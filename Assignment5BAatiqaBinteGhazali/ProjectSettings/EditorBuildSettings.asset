@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/HummingBird.unity
+    guid: 46b62d01922a6e54082fc4d66388930f
+  - enabled: 1
+    path: Assets/Hummingbird/Scenes/Penguin.unity
+    guid: 9e7649d4452f5874595c2b30aad39082
+  - enabled: 1
+    path: Assets/Scenes/Penguins.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 296686e1ebcdd1e4eb3a7a6364e83cbe
+  - enabled: 1
+    path: Assets/Scenes/Plaindromes.unity
+    guid: 3bd77d0c80da4cc4ab605dfb7d1105ae
+  - enabled: 1
+    path: Assets/Scenes/Computational-Models.unity
+    guid: 23c173ee80ba9b2458f44aeab4cd5333
+  - enabled: 1
+    path: Assets/Scenes/GameMenu.unity
+    guid: 7e07c6c8091ff3d4688b9c0bcb457e04
+  - enabled: 1
+    path: Assets/Scenes/HummingBird 1.unity
+    guid: 16eba0b38b2c48e4e88d2139b0eea262
+  - enabled: 1
+    path: Assets/Scenes/Items.unity
+    guid: 9ebe665a901a8584ba4007863e988fac
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: ec20d13a8217c634aab310473f8129ec
+  - enabled: 1
+    path: Assets/Scenes/MLAgents.unity
+    guid: 501cbcf229fa30343bb8c7e72c3937fd
+  - enabled: 1
+    path: Assets/Scenes/PalindromeMain.unity
+    guid: f5d7eac775b027d4c8216b56441d3792
+  - enabled: 1
+    path: Assets/Scenes/ParenthesisMain.unity
+    guid: 30f65413ba9d9ae42afaf1b0617b1f86
+  - enabled: 1
+    path: Assets/Scenes/paranthesis.unity
+    guid: 70586bd2de508ff40ab7c69892508c6a
+  m_configObjects: {}
