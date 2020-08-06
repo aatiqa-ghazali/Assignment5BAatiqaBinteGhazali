@@ -30,12 +30,12 @@ public class Spawner_1 : MonoBehaviour
 
             GameObject gameobject;
 
-
+ 
             randEnemy = Random.Range(0, 4);
-            float x = Random.Range(-7, 7);
+            float x = Random.Range(-8, 8);
             float z = Random.Range(-7, 7);
             //y is set to 1
-            Vector3 spawnPosition = new Vector3(x, 1, z);
+            Vector3 spawnPosition = new Vector3(Random.Range(-14, 13f), 1f, Random.Range(-8, 7));
             //generate random no between 0 and 2
             int r = Random.Range(0, 2);
             // Debug.Log(r);

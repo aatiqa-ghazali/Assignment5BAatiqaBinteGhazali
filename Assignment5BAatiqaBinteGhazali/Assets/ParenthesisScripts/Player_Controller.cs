@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Player_Controller : MonoBehaviour
 {
    
-    public float speed ;
+    public float speed =4;
     private Rigidbody rb;
     public int count = 0;
     public TextMesh countText;
@@ -92,12 +92,14 @@ public static bool IsValid(string myString)
         {
             count++;
             SetCountText(ss.NoOfPalind());
+ticksource.Pause();
             other.gameObject.SetActive(false);
+ 
             Destroy(other.gameObject);
-           
+       
             
         }
-        else if(!(IsValid(n)))
+         else if(!(IsValid(n)))
         {
            
 
@@ -115,8 +117,8 @@ public static bool IsValid(string myString)
 
     void SetCountText(int parenthesis)
     {
- Debug.Log(parenthesis)
-        if parenthesis== count)
+ Debug.Log(parenthesis);
+        if (parenthesis== count)
         {
   
             countText.text = "All Balanced parenthesis are eaten."+"\n"+"The number of eaten parenthesis which are balanced is" + " " + parenthesis.ToString();

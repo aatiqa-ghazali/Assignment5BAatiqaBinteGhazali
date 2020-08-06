@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Player_Controller_1 : MonoBehaviour
 {
    
-    public float speed ;
+    public float speed =7;
     private Rigidbody rb;
     public int count = 0;
     public TextMesh countText;
@@ -40,8 +40,10 @@ public class Player_Controller_1 : MonoBehaviour
         {
             count++;
             SetCountText(ss.NoOfPalind());
+ ticksource.Pause();
             other.gameObject.SetActive(false);
-            Destroy(other.gameObject);
+
+           Destroy(other.gameObject);
            
             
         }
